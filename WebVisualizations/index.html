@@ -17,105 +17,90 @@
 
 <body>
   <!--Navigation Bar-->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="index.html">Latitude</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Latitude</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <!--Dropdown Selection-->
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Plots
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="max_temperature.html">Max Temperature</a>
-              <a class="dropdown-item" href="max_temperature.html">Humidity</a>
-              <a class="dropdown-item" href="max_temperature.html">Cloudiness</a>
-              <a class="dropdown-item" href="max_temperature.html">Wind Speed</a>
-            </ul>
-          
-          <li class="nav-item">
-            <a class="nav-link" href="#">Comparison</a>
-          </li>
-          
-          <li class="nav-item">
-            <a class="nav-link" href="#">Data</a>
-          </li>
-       </ul>
-    </div>
-  </nav>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <!--Dropdown Selection-->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Plots
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="max_temperature.html">Max Temperature</a></li>
+                <li><a class="dropdown-item" href="#">Humidity</a></li>
+                <li><a class="dropdown-item" href="#">Cloudiness</a></li>
+                <li><a class="dropdown-item" href="#">Wind Speed</a></li>
+              </ul>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="comparison.html">Comparison</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#">Data</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6">
+    <div class="container">
+      <div class="row">
 
+        <div class="col-lg-6">
           <figure class="box-1">
-            <h3 id="landing page title">Summary: Latitude vs. X<h3>
+            <h3 id="summary_table">Summary: Latitude vs. X</h3>
             <hr>
-
-
-
-
-
-
-
-
+            <img src="Resources\assets\images\max_temp.png" width=300px alt="Graph Image" />
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
           </figure>
-          
+        </div>
 
+        <div class="col-lg-6">
+          <figure class="box-2">
+            <h3 id="visual">Visualizations</h3>
+            <hr>
+            <div class="container">
 
+              <div class="row">
+                <div class="col-lg-6">
+                  <a href="max_temperature.html"> 
+                    <img src="Resources\assets\images\max_temp.png" width=200px alt="Max Temp"/></a>
+                </div>
 
+                <div class="col-lg-6">
+                  <a href="#">
+                    <img src="Resources\assets\images\humidity.png" width=200px alt="Humidity"/></a>
+                </div>
+              </div>
 
+              <div class="row">
+                <div class="col-md-3 col-lg-6">
+                  <a href="#">
+                    <img src="Resources\assets\images\cloudiness.png" width=200px alt="Cloudiness"/></a>
+                </div>
 
+                <div class="col-md-3 col-lg-6">
+                  <a href="#">
+                    <img src="Resources\assets\images\wind_speed.png" width=200px alt="Wind Speed"/></a>
+                </div>
+              </div>
 
+            </div>
+          </figure>
         </div>
       </div>
     </div>
 
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  </div>
-
-
-
-
-
-
-
-
-
-
- 
-  
-
-
-
-
-</body>
+  </body>
 </html>
