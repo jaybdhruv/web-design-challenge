@@ -1,0 +1,46 @@
+.navbar-light .navbar-brand {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0);
+}
+
+a.navbar-brand {
+    background-color: #b4834b;
+    font-weight: 600;
+    font-family: cursive;
+}
+/*.box-set {
+    position: relative;
+    width: 1000px;
+    height: 600px;
+    background: rgb(255, 255, 255);
+}
+
+.box {
+     /* relative positioning 
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background: #b13d3d;
+    border: 2px solid black;
+}
+  
+.box-1 {top: 40%; left: 10%}*/
+
+figure.box-1 {
+    margin: 0 0 1rem;
+    margin-top: 50px;
+    margin-right: 0px;
+    margin-bottom: 1rem;
+    margin-left: 20px;
+    position: relative;
+    width: 600px;
+    height: 500px;
+    background: #ffffff;
+    border: 2px solid #343a40;
+}
+
+
+/*.box-2 {top: 5%; left: -10%;}*/
