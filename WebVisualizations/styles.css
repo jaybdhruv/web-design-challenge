@@ -12,9 +12,9 @@ a.navbar-brand {
     font-family: auto;
 }
 
-/*.container{
+/* .container{
     background-color: #c9ccd0;
-}*/
+} */
 
 figure.box-1 {
     margin: 0 0 1rem;
@@ -26,21 +26,21 @@ figure.box-1 {
     width: 550px;
     height: 500px;
     background: #ffffff;
-    border: 2px solid #343a40;
+    /* border: 2px solid #343a40; */
     padding: inherit;
 }
 
 figure.box-2 {
     margin: 0 0 1rem;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-right: 0px;
     margin-bottom: 1rem;
-    margin-left: 25px;
+    margin-left: 15px;
     position: relative;
     width: 490px;
     height: 400px;
     background: #ffffff;
-    border: 2px solid #343a40;
+    /* border: 2px solid #343a40; */
     padding: inherit;
 }
 
@@ -49,7 +49,7 @@ h3#visual{
     line-height: 2;
 }
 
-p{font-size: medium;}
+p{font-size: medium; text-align:justify;}
 
 
 h3#summary_table{
@@ -57,7 +57,7 @@ h3#summary_table{
     line-height: 2;
 }
 
-body{color: #439497}
+body{background-color: #dee2e6}
 
 
 @media (max-width: 600px) {
@@ -71,4 +71,5 @@ body{color: #439497}
         <div class="row">
             <div class="col-md-6">
         }
+        style='border-collapse: collapse;table-layout:fixed;width:528pt'
 }*/
