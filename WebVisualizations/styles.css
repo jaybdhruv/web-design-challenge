@@ -59,6 +59,24 @@ h3#summary_table{
 
 body{background-color: #dee2e6}
 
+div#data {
+    background-color: white;
+}
+
+h1{
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    padding-left: 30px;
+}
+
+hr{
+    width: 1120px; 
+    margin-left: 10px;
+}
+
+
+
+
 
 @media (max-width: 600px) {
     .navbar-expand-lg {background-color: #439497 !important;}
@@ -73,3 +91,4 @@ body{background-color: #dee2e6}
         }
         style='border-collapse: collapse;table-layout:fixed;width:528pt'
 }*/
+
