@@ -1,3 +1,16 @@
+body{background-color: #dee2e6}
+p{font-size: large; text-align:justify;}
+
+.navbar{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.container-fluid{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 .navbar-light .navbar-brand {
     color: rgb(255, 255, 255);
 }
@@ -9,12 +22,8 @@
 a.navbar-brand {
     background-color: #439497;
     font-weight: 600;
-    font-family: auto;
+    font-family:Arial, Helvetica, sans-serif;
 }
-
-/* .container{
-    background-color: #c9ccd0;
-} */
 
 figure.box-1 {
     margin: 0 0 1rem;
@@ -44,43 +53,45 @@ figure.box-2 {
     padding: inherit;
 }
 
-h3#visual{
-    margin-bottom: 0.5rem;
-    line-height: 2;
+#comp1{
+    margin-top: 30px;
+    text-align:center;
+    color: #439497;
 }
 
-p{font-size: medium; text-align:justify;}
-
+#comp2{
+    margin-top: 30px;
+    text-align:center;
+    color: #439497;
+}
 
 h3#summary_table{
     margin-bottom: 0.1rem;
     line-height: 2;
 }
 
-body{background-color: #dee2e6}
-
 div#data {
     background-color: white;
 }
 
-h1{
-    margin-top: 20px; 
-    margin-bottom: 20px; 
+.container{
+    margin-top: 50px;
     padding-left: 30px;
+    padding-right: 30px;
 }
 
-hr{
-    width: 1120px; 
-    margin-left: 10px;
+h1{ 
+    margin-bottom: 20px;
+    padding-left: 15px;
+    color: #439497;
 }
-
-
 
 
 
 @media (max-width: 600px) {
     .navbar-expand-lg {background-color: #439497 !important;}
-
+    .navbar-collapse{background-color: white;}
+    body{background-color: #ffffff}
 }
 
 /*@media (min-width: 768px){
