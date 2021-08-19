@@ -25,32 +25,12 @@ a.navbar-brand {
     font-family:Arial, Helvetica, sans-serif;
 }
 
-figure.box-1 {
-    margin: 0 0 1rem;
-    margin-top: 50px;
-    margin-right: 0px;
-    margin-bottom: 1rem;
-    margin-left: 15px;
+.box {
+    margin-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
     position: relative;
-    width: 550px;
-    height: 500px;
     background: #ffffff;
-    /* border: 2px solid #343a40; */
-    padding: inherit;
-}
-
-figure.box-2 {
-    margin: 0 0 1rem;
-    margin-top: 50px;
-    margin-right: 0px;
-    margin-bottom: 1rem;
-    margin-left: 15px;
-    position: relative;
-    width: 490px;
-    height: 400px;
-    background: #ffffff;
-    /* border: 2px solid #343a40; */
-    padding: inherit;
 }
 
 #comp1{
@@ -65,11 +45,6 @@ figure.box-2 {
     color: #439497;
 }
 
-h3#summary_table{
-    margin-bottom: 0.1rem;
-    line-height: 2;
-}
-
 div#data {
     background-color: white;
 }
@@ -78,17 +53,20 @@ div#data {
     margin-top: 50px;
     padding-left: 30px;
     padding-right: 30px;
+    background-color: rgb(255, 255, 255); 
+    margin-bottom: 50px;
 }
 
 h1{ 
     margin-bottom: 20px;
+    padding-top: 15px;
     padding-left: 15px;
     color: #439497;
 }
 
 
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .navbar-expand-lg {background-color: #439497 !important;}
     .navbar-collapse{background-color: white;}
     body{background-color: #ffffff}
