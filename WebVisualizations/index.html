@@ -51,45 +51,46 @@
       </div>
     </nav>
 
-    <div class="container" style="background-color: #dee2e6;">
+    <div id="index" class="container" style="background-color: #dee2e6;">
       <div class="row">
-        <div class="col-lg-8 col-md-12">
+        <div class="col-lg-8 col-md-12 col-sm-12">
           <figure id="summary" class="box" style="width:680px; height:500px;">
             <h1>Summary: Latitude vs. X</h1>
             <hr>
-            <img src="Resources\assets\images\max_temp.png" width=250px height=250px alt="Summary Image"/>
-            <p>Paragraph 1</p>
-            <p>Paragraph 2</p>
+            <img src="Resources\assets\images\max_temp.png" align="left" width=250px height=250px alt="Summary Image"/>
+            <p>In this project, we wanted to see how weather changes as we move towards equator and differences in the weather in both the hemispheres. We used OpenWeatherMap API to assemble the dataset of randomly selected 500+ cities.</p>
+            <p>After the dataset was assembled, we used Matplotlib and Python to plot various parameters vs. latitudes to see what impact it has on the weather of a particular city. We used four parameters: Max Temperature, Cloudiness, Humidity & Wind Speed. In this wesbite, we have provided visualizations, source data used and analysis of how these parameters correlate with the latitudes.</p>
           </figure>
         </div>
         
-        <div class="col-lg-4 col-md-12"> 
-          <figure class="box-1">
-            <h3 id="visual">Visualizations</h3>
+        <div class="col-lg-4 col-md-12 col-sm-12"> 
+          <figure class="box" style="padding-left: 30px; padding-right: 30px;">
+            <h1>Visualizations</h1>
             <hr>
-            <div class="container">
-
+            <div class="container" style="padding-left:0px; padding-right:0px; margin-top: 15px;">
               <div class="row">
-               <div class="col-sm-12 col-md-6">
+               <div class="col-lg-6 col-md-3 col-sm-3">
                   <a href="max_temperature.html"> 
-                    <img src="Resources\assets\images\max_temp.png" width=200px alt="Max Temp"/></a>
+                    <img src="Resources\assets\images\max_temp.png" width=150px height=150px alt="Max Temp"/>
+                  </a>
                 </div>
 
-                <div class="col-sm-12 col-md-6">
+                <div class="col-lg-6 col-md-3 col-sm-3">
                   <a href="#">
-                    <img src="Resources\assets\images\humidity.png" width=200px alt="Humidity"/></a>
+                    <img src="Resources\assets\images\humidity.png" width=150px height=150px alt="Humidity"/>
+                  </a>
                 </div>
-              </div>
-
-              <div class="row">
-                <div class="col-sm-12 col-md-6">
+              
+                <div class="col-lg-6 col-md-3 col-sm-3">
                   <a href="#">
-                    <img src="Resources\assets\images\cloudiness.png" width=200px alt="Cloudiness"/></a>
+                    <img src="Resources\assets\images\cloudiness.png" width=150px height=150px alt="Cloudiness"/>
+                  </a>
                 </div>
-
-                <div class="col-sm-12 col-md-6">
+                
+                <div class="col-lg-6 col-md-3 col-sm-3">
                   <a href="#">
-                    <img src="Resources\assets\images\wind_speed.png" width=200px alt="Wind Speed"/></a>
+                    <img src="Resources\assets\images\wind_speed.png" width=150px height=150px alt="Wind Speed"/>
+                  </a>
                 </div>
               </div>
 
