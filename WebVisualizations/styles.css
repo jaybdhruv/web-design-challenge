@@ -64,20 +64,19 @@ h1{
     color: #439497;
 }
 
-
-
-@media (max-width: 800px) {
-    .navbar-expand-lg {background-color: #439497 !important;}
-    .navbar-collapse{background-color: white;}
-    body{background-color: #ffffff}
+#vis{
+    width:680px; 
+    height:650px;
 }
 
-/*@media (min-width: 768px){
-.col-md-6 .box-2{
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-        }
-        style='border-collapse: collapse;table-layout:fixed;width:528pt'
-}*/
+.border:hover{
+    border:red
+}
+
+
+
+@media (max-width: 900px) {
+    .navbar-expand-lg {background-color: #439497 !important;}
+    .navbar-collapse{background-color: rgb(255, 255, 255);}
+}
 
